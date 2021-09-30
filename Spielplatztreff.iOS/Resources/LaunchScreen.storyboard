@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="X5k-f2-b5h">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gAE-YM-kbH">
+            <objects>
+                <viewController id="X5k-f2-b5h" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y8P-hJ-Z43"/>
+                        <viewControllerLayoutGuide type="bottom" id="9ZL-r4-8FZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yd7-JS-zBw">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="pirateship.png" highlightedImage="pirateship.png" translatesAutoresizingMaskIntoConstraints="NO" id="KwE-Zy-zu2">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="962"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcY-Yg-zfK">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XGP-vu-XDJ">
+                                <rect key="frame" x="86.666666666666686" y="63.333333333333343" width="255" height="299.66666666666663"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Spielplatztreff
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="Optima-Bold"/>
+                                            <font key="NSOriginalFont" size="36" name="Optima-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="Optima-Bold"/>
+                                            <font key="NSOriginalFont" size="36" name="Optima-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Eine App von">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="Optima-Bold"/>
+                                            <font key="NSOriginalFont" size="36" name="Optima-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="Optima-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Christoph Raub
+&amp;
+Robert Komarek</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="Optima-Bold"/>
+                                            <font key="NSOriginalFont" size="36" name="Optima-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.59607843137254901" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dcY-Yg-zfK" secondAttribute="trailing" id="8fD-ms-8vS"/>
+                            <constraint firstItem="XGP-vu-XDJ" firstAttribute="centerY" secondItem="yd7-JS-zBw" secondAttribute="centerY" constant="-250" id="8wy-hL-Alu"/>
+                            <constraint firstItem="KwE-Zy-zu2" firstAttribute="leading" secondItem="yd7-JS-zBw" secondAttribute="leading" id="QXW-yT-tmj"/>
+                            <constraint firstItem="dcY-Yg-zfK" firstAttribute="top" secondItem="yd7-JS-zBw" secondAttribute="top" id="Rmd-cZ-FLH"/>
+                            <constraint firstItem="KwE-Zy-zu2" firstAttribute="top" secondItem="yd7-JS-zBw" secondAttribute="top" id="Zbs-nC-MSr"/>
+                            <constraint firstItem="XGP-vu-XDJ" firstAttribute="centerX" secondItem="yd7-JS-zBw" secondAttribute="centerX" id="b7N-p3-0Cr"/>
+                            <constraint firstAttribute="trailing" secondItem="KwE-Zy-zu2" secondAttribute="trailing" id="bEH-ZI-L1W"/>
+                            <constraint firstAttribute="bottom" secondItem="dcY-Yg-zfK" secondAttribute="bottom" id="g8e-Jr-8Ez"/>
+                            <constraint firstItem="9ZL-r4-8FZ" firstAttribute="top" secondItem="KwE-Zy-zu2" secondAttribute="bottom" constant="-70" id="oK9-TJ-W1b"/>
+                            <constraint firstItem="dcY-Yg-zfK" firstAttribute="leading" secondItem="yd7-JS-zBw" secondAttribute="leading" id="s9I-mH-NLg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XAI-xm-WK6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="346.26168224299062" y="337.5809935205184"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pirateship.png" width="381.3599853515625" height="353.51998901367188"/>
+    </resources>
+</document>

@@ -3,9 +3,25 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
-    x:Class="Spielplatztreff.Views.GoogleMapsPage">
+    xmlns:vm="clr-namespace:Spielplatztreff.ViewModels"
+    xmlns:model="clr-namespace:Spielplatztreff.Models"
+    x:Class="Spielplatztreff.Views.GoogleMapsPage"
+    x:DataType="vm:GoogleMapsViewModel">
+
+    <ContentPage.BindingContext>
+        <vm:GoogleMapsViewModel/>
+    </ContentPage.BindingContext>
 
     <ContentPage.Content>
-        <maps:Map x:Name="map" />
+        <maps:Map ItemsSource="{Binding Locations}">
+            <maps:Map.ItemTemplate>
+                <DataTemplate x:DataType="model:Location">
+                    <maps:Pin Position="{Binding Position}"
+                              Address="{Binding Address}"
+                              Label="{Binding Label}"/>
+                </DataTemplate>
+            </maps:Map.ItemTemplate>
+
+        </maps:Map>
     </ContentPage.Content>
 </ContentPage>

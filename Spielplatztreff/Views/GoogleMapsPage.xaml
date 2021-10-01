@@ -13,7 +13,8 @@
     </ContentPage.BindingContext>
 
     <ContentPage.Content>
-        <maps:Map ItemsSource="{Binding Locations}">
+
+        <maps:Map x:Name="map" IsShowingUser="True" ItemsSource="{Binding Locations}">
             <maps:Map.ItemTemplate>
                 <DataTemplate x:DataType="model:Location">
                     <maps:Pin Position="{Binding Position}"
@@ -21,7 +22,6 @@
                               Label="{Binding Label}"/>
                 </DataTemplate>
             </maps:Map.ItemTemplate>
-
         </maps:Map>
     </ContentPage.Content>
 </ContentPage>
